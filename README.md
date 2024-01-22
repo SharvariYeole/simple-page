@@ -3,4 +3,5 @@
 
 link to live site https://sharvariyeole.github.io/simple-page/
 
-Whatever I type will appear on the web 
+Whatever I type will appear on the public web 
+

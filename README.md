@@ -12,7 +12,9 @@ Whatever I type will appear on the public web
 <script type='text/javascript'>                    
   var divElement = document.getElementById('viz1709095217422');                    
   var vizElement = divElement.getElementsByTagName('object')[0];                    
-  if ( divElement.offsetWidth > 800 ) { vizElement.style.width='600px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='600px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
+  if ( divElement.offsetWidth > 800 ) { vizElement.style.width='600px';vizElement.style.height='627px';} 
+  else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='600px';vizElement.style.height='627px';} 
+  else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
   var scriptElement = document.createElement('script');                    
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
   vizElement.parentNode.insertBefore(scriptElement, vizElement);                
